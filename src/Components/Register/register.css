@@ -1,0 +1,11 @@
+.form-application{
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    width: 322px;
+    padding: 10px;
+}
+.form-div-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.contact{
+    background-image: url('https://www.nicehash.com/assets/c3ea763d684a99e17cbf.jpg');
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: blue;
+    margin-top: 0;
+}
+@media only screen and (max-width: 600px) {
+    .contact{
+        height: 27vh;
+    }
+}

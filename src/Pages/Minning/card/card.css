@@ -1,0 +1,17 @@
+.card{
+    box-shadow: 1 1 1px 1 black;
+    width: 316px;
+    padding: 20px;   
+}
+.card-header{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .card-header{
+        display: flex;
+        flex-flow: column;
+    }
+}
+/*inherit*/

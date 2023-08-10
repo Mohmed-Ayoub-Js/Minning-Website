@@ -1,0 +1,33 @@
+.container-card-dashboard{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap:10px;
+}
+.image-dashboard-style{
+    width: 250px;
+    height: 250px;
+}
+.TRX-usage{
+    background-color: #333;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 5px 0 black;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-card-dashboard{
+        display: flex;
+        flex-flow: column;
+    }
+    .hide-on-mobile {
+        display: none;
+      }
+    .card-app-app{
+        margin-top: 100px;
+        position: relative;
+        right: -50px;
+        width: 425px;
+        left: 40px;
+    }
+}

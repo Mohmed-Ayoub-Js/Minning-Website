@@ -1,0 +1,35 @@
+.flex-application{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.card-copper {
+    background-color: #B87333;
+}
+  
+.card-silver {
+    background-color: silver;
+}
+  
+.card-golden {
+    background-color: gold;
+}
+  
+.card-diamond {
+    background-color: #45aaf2;
+}
+.card-copper {
+  background-color: #B87333;
+}
+
+.card-silver {
+  background-color: silver;
+}
+
+.card-golden {
+  background-color: gold;
+}
+
+.card-diamond {
+    background-color: #45aaf2;
+}

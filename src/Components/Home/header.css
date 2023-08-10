@@ -1,0 +1,18 @@
+.header-header{
+    background-image: url('https://www.nicehash.com/assets/ff8839bcad723e1b8204.jpg');
+    height: 100vh;
+    color: white;
+    width: 100;
+    padding: 20px;
+}
+.application-text h3{
+    color: orange;
+}
+.application-text{
+    padding: 10px;
+}
+.header-header div{
+    margin-top: 10px;
+    position: relative;
+    top: 100px;
+}
